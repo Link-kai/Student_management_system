@@ -20,40 +20,38 @@
 
   
 
-  ![1652330542964](readme.images/1652330542964.png) 
+  ![1652330542964](readme.images/思维导图.png) 
 
   
 
-  ![1652330565045](readme.images/1652330565045.png)![1652330581731](readme.images/1652330581731.png)
+  ![1652330565045](readme.images/用户登录.png)![1652330581731](readme.images/用户名或密码错误.png)
 
-  ![1652330589467](readme.images/1652330589467.png)![1652330603075](readme.images/1652330603075.png)
+  ![1652330589467](readme.images/管理员用户首页.png)![1652330603075](readme.images/教室列表.png)
 
-  ![1652330607763](readme.images/1652330607763.png) 
+  ![1652330607763](readme.images/添加教室.png) 
 
-  ![1652330612295](readme.images/1652330612295.png) 
+  ![1652330612295](readme.images/教室编辑.png) 
 
-  ![1652330616130](readme.images/1652330616130.png) 
+  ![1652330616130](readme.images/删除.png) 
 
-  ![1652330621640](readme.images/1652330621640.png)![1652330627860](readme.images/1652330627860.png)
+  ![1652330621640](readme.images/批量删除.png)![1652330627860](readme.images/检索.png)
 
-  ![1652330638907](readme.images/1652330638907.png) 
+  ![1652330638907](readme.images/课堂列表.png) 
 
-  ![1652330643420](readme.images/1652330643420.png) 
+  ![1652330643420](readme.images/添加课程表.png) 
 
-  ![1652330647714](readme.images/1652330647714.png) 
+  ![1652330647714](readme.images/必填字段.png)  
 
-  ![1652330651946](readme.images/1652330651946.png) 
+  ![1652330655752](readme.images/用户列表.png) 
 
-  ![1652330655752](readme.images/1652330655752.png) 
+  ![1652330660007](readme.images/停用用户.png) 
 
-  ![1652330660007](readme.images/1652330660007.png) 
+   ![1652330664455](readme.images/修改学生用户.png)
 
-   ![1652330664455](readme.images/1652330664455.png)
+  ![1652330669111](readme.images/课程表.png) 
 
-  ![1652330669111](readme.images/1652330669111.png) 
+  ![1652330677831](readme.images/课程表2.png) 
 
-  ![1652330677831](readme.images/1652330677831.png) 
-  
   
 
 #  使用的第三方库  
@@ -78,8 +76,9 @@
 
 # 使用说明
 
-- SMS目录下的数据库文件sms.sql导入MySQL数据库，运行程序即可
-- 后台登录界面为 admin.aspx ，默认账号：admin 密码：admin
+- SMS目录下的数据库文件sms.sql生成MySQL数据库，运行程序即可
+- IDEA配置maven，连接数据库
+- 后台登录界面为 http://localhost/scau ，默认管理员账号：admin 密码：admin
 
 
 

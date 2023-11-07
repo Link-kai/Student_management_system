@@ -96,6 +96,7 @@
                 </div>
             </div>
 
+            
 
 
 
@@ -104,11 +105,13 @@
                 <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>专业：</label>
                 <div class="formControls col-xs-8 col-sm-9">
                     <span class="select-box">
-                        <select name="schoolYear" class="select valid" aria-required="true" aria-invalid="false">
+                        <select name="major" class="select valid" aria-required="true" aria-invalid="false">
                             <option th:value="${student.major}">计算机科学与工程</option>
                             <option th:value="${student.major}">软件工程</option>
                             <option th:value="${student.major}">大数据技术与管理</option>
                             <option th:value="${student.major}">原神元素科学</option>
+                            <option th:value="${student.major}">原神文字学(丘丘语方向)</option>
+                            <option th:value="${student.major}">原神文字学(古文字方向)</option>
                         </select>
                     </span>
                 </div>
@@ -163,6 +166,8 @@
             rules: {
                 name: {
                     required: true,
+                    minlength: 1,
+                    maxlength: 16
                 }, sex: {
                     required: true,
                 }, grade: {

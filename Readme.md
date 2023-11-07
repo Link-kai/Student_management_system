@@ -1,4 +1,4 @@
-# 基于Java的教务管理系统、学生管理系统、课表查询系统  (Spring、SpringBoot、thymeleaf)
+## 基于SSM的学生管理系统
 
 - 基于Spring的教务管理系统、学生管理系统、课表查询系统  ，包含数据库文件
 
